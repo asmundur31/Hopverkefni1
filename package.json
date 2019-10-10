@@ -1,0 +1,30 @@
+{
+  "name": "h1",
+  "version": "0.0.1",
+  "description": "Hópverkefni 1",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browser-sync": "browser-sync start --server --files index.html styles.css pages/*.html",
+    "sass": "node-sass --source-map-embed styles.scss styles.css",
+    "sass-watch": "node-sass --source-map-embed --watch *.scss --recursive styles.css",
+    "dev": "concurrently npm:sass npm:sass-watch npm:browser-sync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asmundur31/Hopverkefni1.git"
+  },
+  "author": "Ásmundur Óskar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asmundur31/Hopverkefni1/issues"
+  },
+  "homepage": "https://github.com/asmundur31/Hopverkefni1#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "concurrently": "^5.0.0",
+    "node-sass": "^4.12.0",
+    "stylelint": "^11.0.0"
+  },
+  "dependencies": {}
+}
