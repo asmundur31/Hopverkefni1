@@ -9,15 +9,8 @@ npm run dev
 Til að linta verkefnið:
 
 ```sh
-npm run lint-css
-```
-
-eða
-
-```sh
 npm run lint-scss
 ```
-
 
 # Hópverkefni 1
 

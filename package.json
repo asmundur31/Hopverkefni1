@@ -9,7 +9,7 @@
     "sass": "node-sass --source-map-embed styles.scss styles.css",
     "sass-watch": "node-sass --source-map-embed --watch *.scss --recursive styles.css",
     "dev": "concurrently npm:sass npm:sass-watch npm:browser-sync",
-    "lint-css": "stylelint grid.css --syntax css",
+    "lint-css": "stylelint styles.css --syntax css",
     "lint-scss": "stylelint styles.scss --syntax scss"
   },
   "repository": {
