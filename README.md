@@ -12,6 +12,8 @@ Til að linta verkefnið:
 npm run lint-scss
 ```
 
+Best er að "lint"-a nógu oft til að lenda ekki í veseni seinna
+
 # Hópverkefni 1
 
 Verkefnið felst í því að smíða vef eftir forskrift.
