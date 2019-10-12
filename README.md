@@ -1,22 +1,22 @@
 # Uppsetning á verkefni
 Til að keyra verkefnið:
 
-'''sh
+```sh
 npm install
 npm run dev
-'''
+```
 
 Til að linta verkefnið:
 
-'''sh
+```sh
 npm run lint-css
-'''
+```
 
 eða
 
-'''sh
+```sh
 npm run lint-scss
-'''
+```
 
 
 # Hópverkefni 1
