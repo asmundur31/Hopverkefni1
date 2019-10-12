@@ -1,7 +1,7 @@
 # Uppsetning á verkefni
 Til að keyra verkefnið:
 
-```bash
+```sh
 npm install
 npm run dev
 ```
