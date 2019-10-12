@@ -1,3 +1,23 @@
+# Uppsetning á verkefni
+Til að keyra verkefnið:
+
+'''sh
+npm install
+npm run dev
+'''
+
+Til að linta verkefnið:
+
+'''sh
+npm run lint-css
+'''
+
+eða
+
+'''sh
+npm run lint-scss
+'''
+
 
 # Hópverkefni 1
 
