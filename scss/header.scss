@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 1200px;
+    background-color: #ff5000;
+
+    &__header {
+        margin: 0 auto;
+    }
+
+    &__nav {
+        margin: 0 auto;
+    }
+    
+    &__tags {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+
+    &__tag {
+        text-transform: uppercase;
+        padding: 0 10px;
+    }
+
+    &__cart {
+        align-self: flex-end;
+    }
+}
+
