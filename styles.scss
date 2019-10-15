@@ -14,9 +14,9 @@
 html { /* stylelint-disable-line */
   box-sizing: border-box;
   overflow-x: hidden;
-
+  max-width: 1200px;
   // TODO fleiri grunn stillingar
 }
 
 // TODO sækja allar sass skrár
-@import "scss/...";
+@import "scss/header";

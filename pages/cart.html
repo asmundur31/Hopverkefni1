@@ -10,17 +10,17 @@
 </head>
 
 <body>
-    <header>
-        <h1>Prílihúsið</h1>
-        <nav>
-            <ul>
-                <li>Forsíða</li>
-                <li>Vörur</li>
-                <li>Námskeið</li>
-                <li>Starfsfólk</li>
+    <header class="header">
+        <h1 class="header__header">Prílihúsið</h1>
+        <nav class="header__nav">
+            <ul class="header__tags">
+                <li class="header__tag">Forsíða</li>
+                <li class="header__tag">Vörur</li>
+                <li class="header__tag">Námskeið</li>
+                <li class="header__tag">Starfsfólk</li>
             </ul>
-            <span><img src="../img/cart.svg" alt="Mynd af körfu">Karfa (6)</span>
         </nav>
+        <span class="header__cart"><img src="../img/cart.svg" alt="Mynd af körfu">Karfa (6)</span>
     </header>
     <main>
         <h2>Vörur í körfu</h2>
@@ -253,7 +253,7 @@
             <h2>Greiðsluupplýsingar</h2>
             <div>
                 <label for="kortanumer">Kortanúmer:</label>
-                <input type="text" id="kortanumer">
+                <input type="number" id="kortanumer">
                 <label for="korthafi">Korthafi:</label>
                 <input type="text" id="korthafi">
                 <label for="gildistimi">Gildistími:</label>
