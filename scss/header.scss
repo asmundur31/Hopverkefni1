@@ -1,17 +1,34 @@
+$appelsinugulur: #ff5000;
+
+@font-face {
+    font-family: 'Open-Sans';
+    src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url("../fonts/Oswald/static/Oswald-Regular.ttf");
+}
+
 .header {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 100vw;
     max-width: 1200px;
-    background-color: #ff5000;
+    background-color: $appelsinugulur;
+    font-family: 'Oswald', verdana, serif;
+    padding: 10px;
 
     &__header {
-        margin: 0 auto;
+        align-self: center;
+        padding: 10px;
+        margin: 0px;
     }
 
     &__nav {
-        margin: 0 auto;
+        align-self: center;
+        padding: 10px;
     }
     
     &__tags {
@@ -26,7 +43,13 @@
     }
 
     &__cart {
-        align-self: flex-end;
+        align-self: center;
+        padding: 10px;
+
+        &__mynd {
+            object-fit: contain;
+            height: 1em;
+        }
     }
 }
 
