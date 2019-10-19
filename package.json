@@ -8,7 +8,7 @@
     "sass": "node-sass --source-map-embed styles.scss styles.css",
     "sass-watch": "node-sass --source-map-embed --watch *.scss --recursive styles.css",
     "dev": "concurrently npm:sass npm:sass-watch npm:browser-sync",
-    "lint-scss": "stylelint styles.scss scss/header.scss --syntax scss"
+    "lint-scss": "stylelint styles.scss scss/*.scss --syntax scss"
   },
   "repository": {
     "type": "git",
