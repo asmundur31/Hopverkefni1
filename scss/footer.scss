@@ -39,6 +39,10 @@ $gutter: 20px;
     color: $hvitur;
     text-decoration: none;
   }
+
+  &__link:hover {
+    color: $svartur;
+  }
 }
 
 .grid {
