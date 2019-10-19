@@ -1,0 +1,70 @@
+$hvitur: #fffcf2;
+$svartur: #000;
+$gutter: 20px;
+
+.main {
+  display: flex;
+  width: 100vw;
+  max-width: 1200px;
+  padding: 0 $gutter;
+  margin: 0 auto;
+  font-family: Oswald, verdana, serif;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: $hvitur;
+}
+
+.products {
+  max-width: 1200px;
+
+  &__row {
+    display: flex;
+    margin-right: -10px;
+    margin-left: -10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &__col {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+
+.product {
+  &__img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  &__header-og-input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__amount {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: stretch;
+  }
+
+  &__input {
+    width: 9em;
+    padding: $gutter/2;
+    border: solid 1px $svartur;
+    border-radius: 3px;
+  }
+
+  &__button {
+    padding: $gutter/2;
+    border: solid 1px $svartur;
+    border-radius: 3px;
+
+    &__img {
+      object-fit: contain;
+      height: 1em;
+      padding-right: 1em;
+    }
+  }
+}
