@@ -44,21 +44,3 @@ $gutter: 20px;
     color: $svartur;
   }
 }
-
-.grid {
-  max-width: 1200px;
-
-  &__row {
-    display: flex;
-    padding-top: 2*$gutter;
-    margin-right: -10px;
-    margin-left: -10px;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  &__col {
-    width: 50%;
-    padding: 0 10px 2*$gutter 10px;
-  }
-}
