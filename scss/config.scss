@@ -1,1 +1,18 @@
-//ToDo stillingar hér
+$hvitur: #fffcf2;
+$svartur: #000;
+$appelsinugulur: #ff5000;
+$blar: #00b7ff;
+$gutter: 20px;
+
+.button {
+  background-color: $blar;
+  margin: 0 auto 2*$gutter auto;
+  width: 55%;
+  padding: 1em 0;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: $appelsinugulur;
+  color: $hvitur;
+}

@@ -1,0 +1,42 @@
+$svartur: #000;
+$gutter: 20px;
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 2*$gutter;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  &__object {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: $gutter;
+  }
+
+  &__input {
+    width: 65%;
+    padding: $gutter/4;
+    border: solid 1px $svartur;
+    border-radius: 3px;
+  }
+
+  &__input--expiration {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    border: none;
+  }
+
+  &__input--fit {
+    width: fit-content;
+  }
+}
