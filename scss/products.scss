@@ -17,6 +17,11 @@ $gutter: 20px;
 .products {
   max-width: 1200px;
 
+  &__header {
+    padding-top: 2*$gutter;
+    padding-bottom: $gutter;
+  }
+
   &__row {
     display: flex;
     margin-right: -10px;
@@ -32,14 +37,19 @@ $gutter: 20px;
 }
 
 .product {
+  padding-bottom: 2*$gutter;
+
   &__img {
     width: 100%;
     object-fit: contain;
   }
 
-  &__header-og-input {
-    display: flex;
-    flex-direction: column;
+  &__header {
+    padding: $gutter/2 0;
+  }
+
+  &__price {
+    padding: $gutter/2 0;
   }
 
   &__amount {
@@ -47,6 +57,12 @@ $gutter: 20px;
     flex-direction: row;
     align-items: flex-end;
     justify-content: stretch;
+  }
+
+  &__label-og-input {
+    display: flex;
+    flex-direction: column;
+    margin-right: $gutter/2;
   }
 
   &__input {
@@ -58,6 +74,7 @@ $gutter: 20px;
 
   &__button {
     padding: $gutter/2;
+    margin-right: $gutter/2;
     border: solid 1px $svartur;
     border-radius: 3px;
 
