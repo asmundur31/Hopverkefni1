@@ -61,8 +61,8 @@ $gutter: 20px;
 
   &__label-og-input {
     display: flex;
-    flex-direction: column;
     margin-right: $gutter/2;
+    flex-direction: column;
 
     &__input {
       width: 9em;

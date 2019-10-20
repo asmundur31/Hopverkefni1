@@ -5,14 +5,14 @@ $blar: #00b7ff;
 $gutter: 20px;
 
 .button {
-  background-color: $blar;
-  margin: 0 auto 2*$gutter auto;
   width: 55%;
   padding: 1em 0;
+  margin: 0 auto 2*$gutter auto;
+  background-color: $blar;
   border-radius: 5px;
 }
 
 .button:hover {
-  background-color: $appelsinugulur;
   color: $hvitur;
+  background-color: $appelsinugulur;
 }
