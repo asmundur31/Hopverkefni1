@@ -1,16 +1,15 @@
 $gutter: 20px;
 
-.grid__main
-{
+.grid__main {
   max-width: 1200px;
 
   &__row {
-    padding-top: 2*$gutter;
     display: flex;
+    padding-top: 2*$gutter;
+    margin-right: -10px;
+    margin-left: -10px;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: -10px;
-    margin-right: -10px;
   }
 
   &__col {
@@ -20,18 +19,14 @@ $gutter: 20px;
   }
 }
 
-@media(min-width: 800px)
-{
-  .grid__main
-  {
-    &__col 
-    {
+@media (min-width: 800px) {
+  .grid__main {
+    &__col {
       width: 50%;
     }
   }
 }
 
-.image 
-{
+.image {
   width: 100%;
 }
