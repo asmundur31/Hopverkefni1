@@ -1,0 +1,64 @@
+$hvitur: #fffcf2;
+$svartur: #000;
+$blar: #00b7ff;
+$gutter: 20px;
+
+.grid {
+  max-width: 1200px;
+
+  &__row {
+    display: flex;
+    padding-top: 2*$gutter;
+    margin-right: -10px;
+    margin-left: -10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &__col {
+    width: 50%;
+    padding: 0 10px 2*$gutter 10px;
+  }
+}
+
+.footer {
+  display: flex;
+  width: 100vw;
+  max-width: 1200px;
+  padding: 0 $gutter;
+  margin: 0 auto;
+  font-family: Oswald, verdana, serif;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: $blar;
+
+  &__header {
+    padding-bottom: $gutter;
+  }
+
+  &__tags {
+    display: flex;
+    color: $hvitur;
+    list-style: none;
+    flex-direction: column;
+  }
+
+  &__tag {
+    padding-bottom: $gutter/2;
+  }
+
+  &__footer {
+    align-self: center;
+    padding-top: $gutter;
+    padding-bottom: 2*$gutter;
+  }
+
+  &__link {
+    color: $hvitur;
+    text-decoration: none;
+  }
+
+  &__link:hover {
+    color: $svartur;
+  }
+}

@@ -1,88 +1,131 @@
 <!doctype html>
 <html lang="is">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Vöruhúsið</title>
 
-    <link rel="stylesheet" href="grid.css">
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <header>
-      <h1 class="header__heading">Prílihúsið</h1>
-      <nav class="navigation">
-        <ul class="navigation__items">
-          <li>Forsíða</li>
-          <li>Vörur</li>
-          <li >Námskeið</li>
-          <li >Starfsfólk</li>
-        </ul>
-        <span class="navigation__cart grid__col"><img src="img/cart.svg" alt="Mynd af körfu">Karfa (6)</span>
-      </nav>
-    </header>
-    <main>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vöruhúsið</title>
+
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header__header">Prílihúsið</h1>
+    <nav class="header__nav">
+      <ul class="header__tags">
+        <li class="header__tag"><a class="header__link header__link--valinn"
+            href="index.html">Forsíða</a></li>
+        <li class="header__tag"><a class="header__link"
+            href="pages/products.html">Vörur</a></li>
+        <li class="header__tag"><a class="header__link"
+            href="pages/course.html">Námskeið</a></li>
+        <li class="header__tag"><a class="header__link"
+            href="pages/staff.html">Starfsfólk</a>
+        </li>
+      </ul>
+    </nav>
+    <span class="header__cart">
+      <img class="header__cart__img" src="img/cart.svg" alt="Mynd af körfu">
+      <a class="header__link" href="pages/cart.html">Karfa (6)</a>
+    </span>
+  </header>
+  <main>
+    <div class="grid__main">
+      <div class="grid__main__row">
+        <div class="grid__main__col">
+          <img class="image" src="img/climbing-store.jpg" alt="Mynd af verslun">
+        </div>
+        <div class="grid__main__col">
+          <h2>Allar vörurnar</h2>
+          <p>Vöruhúsið hefur allar þær vörur sem þig vantar fyrir klifrið.</p>
+          <button>Skoða vörur</button>
+        </div>
+      </div>
+      <div class="grid__main__row">
+        <div class="grid__main__col">
+          <h2>Besta starfsfólkið</h2>
+          <p>Starfsfólkið okkar hugsar vel um þig.</p>
+          <button>Kynnast starfsfólki</button>
+        </div>
+        <div class="grid__main__col">
+          <img class="image" src="img/team.jpg" alt="Mynd af höndum teymisins">
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="grid">
       <div class="grid__row">
         <div class="grid__col">
-          <img src="img/climbing-store.jpg" alt="Mynd af verslun">
+          <div class="footer__card">
+            <h3 class="footer__header">Vöruflokkar</h3>
+            <ul class="footer__tags">
+              <li class="footer__tag"><a class="footer__link"
+                  href="pages/products.html">Nauðsynjavörur</a></li>
+              <li class="footer__tag"><a class="footer__link"
+                  href="pages/products.html">Frábærar vörur</a></li>
+              <li class="footer__tag"><a class="footer__link"
+                  href="pages/products.html">Ómissandi vörur</a></li>
+              <li class="footer__tag"><a class="footer__link"
+                  href="pages/products.html">Ótrúlegar vörur</a></li>
+              <li class="footer__tag"><a class="footer__link"
+                  href="pages/products.html">Magnaðar vörur</a></li>
+            </ul>
+          </div>
         </div>
         <div class="grid__col">
-            <h2>Allar vörurnar</h2>
-            <p>Vöruhúsið hefur allar þær vörur sem þig vantar fyrir klifrið.</p>
-            <button>Skoða vörur</button>
+          <div class="footer__card">
+            <h3 class="footer__header">Vöruflokkar</h3>
+            <ul class="footer__tags">
+              <li class="footer__tag"><a class="footer__link"
+                  href="pages/products.html">Trylltar vörur</a></li>
+              <li class="footer__tag"><a class="footer__link"
+                  href="pages/products.html">Geggjaðar vörur</a></li>
+              <li class="footer__tag"><a class="footer__link"
+                  href="pages/products.html">Svakalegar vörur</a></li>
+              <li class="footer__tag"><a class="footer__link"
+                  href="pages/products.html">Fáránlegar vörur</a></li>
+              <li class="footer__tag"><a class="footer__link"
+                  href="pages/products.html">Klikkaðar vörur</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="grid__row">
         <div class="grid__col">
-            <h2>Besta starfsfólkið</h2>
-            <p>Starfsfólkið okkar hugsar vel um þig.</p>
-            <button>Kynnast starfsfólki</button>
+          <div class="footer__card">
+            <h3 class="footer__header">Námskeið</h3>
+            <ul class="footer__tags">
+              <li class="footer__tag"><a class="footer__link"
+                  href="pages/course.html">V0 - V1 námskeið</a></li>
+              <li class="footer__tag"><a class="footer__link"
+                  href="pages/course.html">V2 - V4 námskeið</a></li>
+              <li class="footer__tag"><a class="footer__link"
+                  href="pages/course.html">V5 - V7 námskeið</a></li>
+              <li class="footer__tag"><a class="footer__link"
+                  href="pages/course.html">Fjallaklifur námskeið</a></li>
+            </ul>
+          </div>
         </div>
         <div class="grid__col">
-          <img src="img/team.jpg" alt="Mynd af höndum teymisins">
+          <div class="footer__card">
+            <h3 class="footer__header">Síður</h3>
+            <ul class="footer__tags">
+              <li class="footer__tag"><a class="footer__link"
+                  href="pages/products.html">Allar vörur</a></li>
+              <li class="footer__tag"><a class="footer__link"
+                  href="pages/staff.html">Starfsfólk</a></li>
+              <li class="footer__tag"><a class="footer__link"
+                  href="pages/course.html">Námskeið</a></li>
+              <li class="footer__tag"><a class="footer__link"
+                  href="pages/cart.html">Karfa</a></li>
+            </ul>
+          </div>
         </div>
       </div>
-    </main>
-    <footer>
-      <div>
-        <h3>Vöruflokkar</h3>
-        <ul>
-          <li>Nauðsynjavörur</li>
-          <li>Frábærar vörur</li>
-          <li>Ómissandi vörur</li>
-          <li>Ótrúlegar vörur</li>
-          <li>Magnaðar vörur</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Vöruflokkar</h3>
-        <ul>
-          <li>Trylltar vörur</li>
-          <li>Geggjaðar vörur</li>
-          <li>Svakalegar vörur</li>
-          <li>Fáránlegar vörur</li>
-          <li>Klikkaðar vörur</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Námskeið</h3>
-        <ul>
-            <li>V0 - V1 námskeið</li>
-            <li>V2 - V4 námskeið</li>
-            <li>V5 - V7 námskeið</li>
-            <li>Fjallaklifur námskeið</li>
-          </ul>
-      </div>
-      <div>
-        <h3>Síður</h3>
-        <ul>
-          <li>Allar vörur</li>
-          <li>Starfsfólk</li>
-          <li>Námskeið</li>
-          <li>Karfa</li>
-        </ul>
-      </div>
-      <div>© 2018 Vöruhúsið</div>
-    </footer>
-  </body>
+    </div>
+    <div class="footer__footer">© 2019 Prílihúsið</div>
+  </footer>
+</body>
+
 </html>

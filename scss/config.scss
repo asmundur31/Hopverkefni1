@@ -1,1 +1,18 @@
-// TODO stillingar hér
+$hvitur: #fffcf2;
+$svartur: #000;
+$appelsinugulur: #ff5000;
+$blar: #00b7ff;
+$gutter: 20px;
+
+.button {
+  width: 55%;
+  padding: 1em 0;
+  margin: 0 auto 2*$gutter auto;
+  background-color: $blar;
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: $hvitur;
+  background-color: $appelsinugulur;
+}

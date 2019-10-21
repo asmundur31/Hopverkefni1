@@ -1,0 +1,59 @@
+$appelsinugulur: #ff5000;
+$hvitur: #fffcf2;
+$svartur: #000;
+
+.header {
+  display: flex;
+  width: 100vw;
+  max-width: 1200px;
+  padding: 10px;
+  font-family: Oswald, verdana, serif;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: $appelsinugulur;
+
+  &__header {
+    align-self: center;
+    padding: 10px;
+    margin: 0;
+  }
+
+  &__nav {
+    align-self: center;
+    padding: 10px;
+  }
+
+  &__tags {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+  }
+
+  &__tag {
+    padding: 0 10px;
+    text-transform: uppercase;
+  }
+
+  &__cart {
+    align-self: center;
+    padding: 10px;
+
+    &__img {
+      object-fit: contain;
+      height: 1em;
+    }
+  }
+
+  &__link {
+    color: $svartur;
+    text-decoration: none;
+  }
+
+  &__link--valinn {
+    text-decoration: underline;
+  }
+
+  &__link:hover {
+    color: $hvitur;
+  }
+}

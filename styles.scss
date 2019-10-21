@@ -12,19 +12,18 @@
 }
 
 html { /* stylelint-disable-line */
-  box-sizing: border-box;
-  overflow-x: hidden;
-
-  // TODO fleiri grunn stillingar
   max-width: 1200px;
+  box-sizing: border-box;
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  overflow-x: hidden;
+  // TODO fleiri grunn stillingar
 
 }
 
 // TODO sækja allar sass skrár
-//@import "scss/...";
-@import "scss/header.scss";
-@import "scss/grid.scss";
-
+@import "scss/fonts";
+@import "scss/header";
+@import "scss/footer";
+@import "scss/products";
+@import "scss/form";
+@import "scss/grid";
