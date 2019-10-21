@@ -16,7 +16,15 @@ html { /* stylelint-disable-line */
   overflow-x: hidden;
 
   // TODO fleiri grunn stillingar
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+
 }
 
 // TODO sækja allar sass skrár
-@import "scss/...";
+//@import "scss/...";
+@import "scss/header.scss";
+@import "scss/grid.scss";
+
