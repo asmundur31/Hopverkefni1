@@ -17,6 +17,7 @@ html { /* stylelint-disable-line */
   margin: 0 auto;
   overflow-x: hidden;
   // TODO fleiri grunn stillingar
+
 }
 
 // TODO sækja allar sass skrár
@@ -25,3 +26,4 @@ html { /* stylelint-disable-line */
 @import "scss/footer";
 @import "scss/products";
 @import "scss/form";
+@import "scss/grid";
