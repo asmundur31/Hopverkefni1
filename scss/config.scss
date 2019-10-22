@@ -10,6 +10,10 @@ $gutter: 20px;
   margin: 0 auto 2*$gutter auto;
   background-color: $blar;
   border-radius: 5px;
+
+  &__link {
+    align-self: center;
+  }
 }
 
 .button:hover {
