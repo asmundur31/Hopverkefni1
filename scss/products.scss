@@ -18,8 +18,7 @@ $gutter: 20px;
   max-width: 1200px;
 
   &__header {
-    padding-top: 2*$gutter;
-    padding-bottom: $gutter;
+    padding: 2*$gutter $gutter/2 $gutter $gutter/2;
   }
 
   &__row {
@@ -32,12 +31,14 @@ $gutter: 20px;
 
   &__col {
     width: 100%;
-    padding: 0 10px;
   }
 }
 
 .product {
   padding-bottom: 2*$gutter;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 
   &__img {
     width: 100%;
@@ -82,6 +83,22 @@ $gutter: 20px;
       object-fit: contain;
       height: 1em;
       padding-right: 1em;
+    }
+  }
+}
+
+@media (min-width: 501px) {
+  .product {
+    flex-direction: row;
+
+    &__img {
+      width: 25%;
+      padding: 0 $gutter/2;
+    }
+
+    &__content {
+      width: 75%;
+      padding: 0 $gutter/2;
     }
   }
 }

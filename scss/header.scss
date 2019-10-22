@@ -1,6 +1,7 @@
 $appelsinugulur: #ff5000;
 $hvitur: #fffcf2;
 $svartur: #000;
+$gutter: 20px;
 
 .header {
   display: flex;
@@ -14,29 +15,30 @@ $svartur: #000;
 
   &__header {
     align-self: center;
-    padding: 10px;
+    padding: $gutter/2;
     margin: 0;
   }
 
   &__nav {
     align-self: center;
-    padding: 10px;
+    padding: $gutter/2;
   }
 
   &__tags {
     display: flex;
     list-style: none;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   &__tag {
-    padding: 0 10px;
+    padding: 0 $gutter/2;
     text-transform: uppercase;
   }
 
   &__cart {
     align-self: center;
-    padding: 10px;
+    padding: $gutter/2;
 
     &__img {
       object-fit: contain;
@@ -55,5 +57,59 @@ $svartur: #000;
 
   &__link:hover {
     color: $hvitur;
+  }
+}
+
+@media (min-width: 501px) {
+  .header {
+    &__header {
+      width: 100%;
+      text-align: center;
+    }
+
+    &__tags {
+      justify-content: space-around;
+    }
+    
+    &__tag {
+      padding: 0;
+    }
+
+    &__tag--last {
+      width: 100%;
+      text-align: center;
+    }
+
+    &__cart {
+      align-self: flex-end;
+      margin-top: -2*$gutter;
+    }
+  }
+}
+
+@media (min-width: 801px) {
+  .header {
+    &__header {
+      width: 100%;
+      text-align: center;
+    }
+
+    &__tags {
+      justify-content: space-around;
+    }
+
+    &__tag {
+      padding: 0 $gutter/2;
+    }
+
+    &__tag--last {
+      width: auto;
+      text-align: center;
+    }
+
+    &__cart {
+      align-self: flex-end;
+      margin-top: -2*$gutter;
+    }
   }
 }

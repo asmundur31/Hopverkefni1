@@ -4,8 +4,6 @@ $blar: #00b7ff;
 $gutter: 20px;
 
 .grid {
-  max-width: 1200px;
-
   &__row {
     display: flex;
     padding-top: 2*$gutter;
@@ -60,5 +58,20 @@ $gutter: 20px;
 
   &__link:hover {
     color: $svartur;
+  }
+}
+
+@media (min-width: 801px) {
+  .grid {
+    &__col {
+      width: 25%;
+      padding-bottom: 0;
+    }
+  }
+
+  .footer {
+    &__footer {
+      padding-top: 0;
+    }
   }
 }
