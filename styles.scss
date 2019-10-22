@@ -16,6 +16,7 @@ html { /* stylelint-disable-line */
   box-sizing: border-box;
   margin: 0 auto;
   overflow-x: hidden;
+  font-size: 16px;
   // TODO fleiri grunn stillingar
 
 }
@@ -27,3 +28,4 @@ html { /* stylelint-disable-line */
 @import "scss/products";
 @import "scss/form";
 @import "scss/grid";
+@import "scss/index";
