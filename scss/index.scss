@@ -1,15 +1,16 @@
 $gutter: 20px;
 
 .col__body {
-    &__header {
-        margin: $gutter 0;
-        font-weight: bold;
-    }
-    &__text {
-        margin: $gutter 0;
-    }
-    
-    &__button {
-        margin: $gutter 0;
-    }
+  &__header {
+    margin: $gutter 0;
+    font-weight: bold;
+  }
+
+  &__text {
+    margin: $gutter 0;
+  }
+
+  &__button {
+    margin: $gutter 0;
+  }
 }

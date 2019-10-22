@@ -35,8 +35,8 @@ $gutter: 20px;
 }
 
 .product {
-  padding-bottom: 2*$gutter;
   display: flex;
+  padding-bottom: 2*$gutter;
   flex-direction: column;
   flex-wrap: wrap;
 
