@@ -5,9 +5,9 @@ $gutter: 20px;
 
   &__row {
     display: flex;
-    padding-top: 2*$gutter;
-    margin-right: -10px;
-    margin-left: -10px;
+    padding: $gutter 0;
+    margin-right: 10px;
+    margin-left: 10px;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -16,6 +16,10 @@ $gutter: 20px;
     width: 100%;
     padding-right: 10px;
     padding-left: 10px;
+  }
+
+  &__reverse__row {
+    flex-direction: column-reverse;
   }
 }
 
