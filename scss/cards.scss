@@ -13,58 +13,61 @@ $gutter: 20px;
 
   &__col {
     position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
+    width: 100%;
+    height: 700px;
+  }
+
+  &__col:hover .card{
+    transform: rotateY(180deg);
   }
 }
 
 .card {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  position: absolute;
+  left: 0; right: 0; top: 0; bottom: 0;
+  width: 100%;
+  max-height: 100%;
   transform-style: preserve-3d;
+  /* stackast í þrívídd */
   transition: transform 0.2s ease-in-out;
+  /* ease, ease-in o.fl. */
+  padding: 0 $gutter/2;
 
   &__img {
-    width: 100%;
-    object-fit: contain;
-    padding: 0 $gutter/2;
+    max-width: 100%;
+    max-height: 100%;
   }
 
   &__front {
     position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
     width: 100%;
-    height: 100%;
+    max-height: 100%;
     backface-visibility: hidden;
+    /* ekki sýna það sem er á bakvið */
+    padding-right: $gutter;
   }
 
   &__back {
     position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
+    /* ekki sýna það sem er á bakvið */
     transform: rotateY(180deg);
+    /* sjáum ekki bakhliðina strax */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 $gutter/2;
+  }
+
+  &__header {
+    padding: $gutter/2;
   }
 
   &__text {
-    word-break: break-word;
     text-align: center;
   }
 }
