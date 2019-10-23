@@ -11,7 +11,6 @@ $gutter: 20px;
   font-family: Oswald, verdana, serif;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: $hvitur;
 }
 
 .products {
@@ -119,6 +118,7 @@ $gutter: 20px;
 
     &__content {
       width: 100%;
+      height: auto;
     }
   }
 }
