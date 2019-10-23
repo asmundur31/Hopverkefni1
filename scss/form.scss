@@ -24,6 +24,10 @@ $gutter: 20px;
   flex-direction: column;
   flex-wrap: wrap;
 
+  &__header {
+    font-size: 1em;
+  }
+
   &__content {
     display: flex;
     flex-direction: column;
@@ -49,6 +53,7 @@ $gutter: 20px;
     padding: 0;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     border: 0;
   }
 
