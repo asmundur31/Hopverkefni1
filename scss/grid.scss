@@ -18,15 +18,22 @@ $gutter: 20px;
     padding-left: 10px;
   }
 
-  &__reverse__row {
-    flex-direction: column-reverse;
-  }
 }
 
 @media (min-width: 800px) {
   .grid__main {
     &__col {
       width: 50%;
+    }
+
+  }
+
+}
+
+@media (max-width: 799px) {
+  .grid__main {
+    &__reverse__row {
+      flex-direction: column-reverse;
     }
   }
 }
