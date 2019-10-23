@@ -45,6 +45,10 @@ $gutter: 20px;
     object-fit: contain;
   }
 
+  &__content {
+    width: 100%;
+  }
+
   &__header {
     padding: $gutter/2 0;
   }
@@ -100,5 +104,27 @@ $gutter: 20px;
       width: 75%;
       padding: 0 $gutter/2;
     }
+  }
+
+  .products__col--501 {
+    width: 50%;
+  }
+
+  .product--501 {
+    flex-direction: column;
+
+    &__img {
+      width: 100%;
+    }
+
+    &__content {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 801px) {
+  .products__col--501 {
+    width: 33%;
   }
 }

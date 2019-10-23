@@ -72,7 +72,7 @@ $gutter: 20px;
     }
 
     &__tag {
-      padding: 0;
+      padding: $gutter/4 0;
     }
 
     &__tag--last {
