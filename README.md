@@ -10,7 +10,7 @@ npm run dev
 
 * npm run sass-watch
 
-Þessi skipun tekur eftir því þegar einhver **\*.scss** skrá er vistuð.
+Þessi skipun tekur eftir því þegar einhver **.scss** skrá er vistuð.
 
 * npm run sass
 
