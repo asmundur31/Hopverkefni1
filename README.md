@@ -48,9 +48,9 @@ Inniheldur útlit á fæti allra síðna í verkefninu.
 ### fonts
 Settum upp sér skrá með öllum leturgerðum sem við þurftum.
 ### index
-
+Stýlar texta í dálkum. Nýtt aðalega í main á index.html en auk þess í course.html.
 ### grid
-
+Sýlar grid sem er nýtt í index.html og course.html.
 ### form
 Hér er útlit á öllum upplýsinga útfyllingum.
 ### cards
