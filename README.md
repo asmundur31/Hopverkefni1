@@ -1,6 +1,6 @@
 # Lýsing á verkefni
 ## Uppsetning á verkefni
-Til að keyra verkefnið þá þarf að sækja þetta repository og framkvæma eftirfarandi skipanir í terminal eða í  command line:
+Til að keyra verkefnið þá þarf að sækja þetta repository og framkvæma eftirfarandi skipanir í terminal eða í command line í möppu verkefnisins:
 
 ```sh
 npm install
