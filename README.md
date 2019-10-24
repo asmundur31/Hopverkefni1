@@ -1,20 +1,68 @@
-# Uppsetning á verkefni
-Til að keyra verkefnið:
+# Lýsing á verkefni
+## Uppsetning á verkefni
+Til að keyra verkefnið þá þarf að sækja þetta repository og framkvæma eftirfarandi skipanir í terminal eða í  command line:
 
 ```sh
 npm install
 npm run dev
 ```
+Þá eru sóttir allir pakkar sem þarf til að keyra verkefnið og svo er verkefnið keyrt með því að keyra nokkrar skipanir samhliða. Þessar skipanir eru:
 
-Til að linta verkefnið:
+* npm run sass-watch
+Þessi skipun tekur eftir því þegar einhver **\*.scss** skrá er vistuð.
+* npm run sass
+Þessi skipun þýðir **styles.scss** skránna yfir í **styles.css** skrá.
+* npm run browser-sync
+Þessi skipun fylgist með því þegar einhver skrá er vistuð að þá verður "browser"-inn sem við erum að nota "refresh"-aður.
 
-```sh
-npm run lint-scss
-```
+## Skipulag verkefnis
+### Uppbygging
+Verkefnið er sett upp á 5 html síðum:
+* index.html (Forsíða)
+* products.html (Vörur)
+* course.html (Námskeið)
+* staff.html (Starfsfólk)
+* cart.html (Karfa)
 
-Best er að "lint"-a nógu oft til að lenda ekki í veseni seinna
+### Útlit
+Allt útlit á verkefninu er í **styles.css** sem var þýtt úr **styles.scss** skránni. Í **styles.scss** skránni eru aðeins grunn útlit og svo eru "import"-aðar aðrar **.scss** skrár. Við reyndum að átta okkur á einungunum sem voru notaðar á öllum síðunum og reyndum að láta hverja einingu fá sína **.scss** skrá. Eftirfarandi **scss** skrár eru "import"-aðar í **styles.scss**:
+* header.scss
+* footer.scss
+* fonts.scss
+* index.scss
+* grid.scss
+* form.scss
+* cards.scss
+* products.scss
+* config.scss
 
-# Hópverkefni 1
+### header
+Inniheldur útlit á haus allra síðna í verkefninu.
+### footer
+Inniheldur útlit á fæti allra síðna í verkefninu.
+### fonts
+Settum upp sér skrá með öllum leturgerðum sem við þurftum.
+### index
+
+### grid
+
+### form
+Hér er útlit á öllum upplýsinga útfyllingum.
+### cards
+Öll kortavirkni hjá starfsmönnum.
+### products
+Útlit á vörum.
+### config
+Hér settum við allt sem okkur fannst eiga hvergi heima.
+
+
+## Upplýsingar um þá sem unnu verkefnið
+* Ásmundur Óskar Ásmundsson (aoa27@hi.is)
+* Ernir Vignisson (erv13@hi.is)
+* Sesar Hersisson (seh32@hi.is)
+
+## Hér endar lýsing á verkefni
+# Hópverkefni 1 
 
 Verkefnið felst í því að smíða vef eftir forskrift.
 
