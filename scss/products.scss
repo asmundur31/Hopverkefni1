@@ -50,6 +50,7 @@ $gutter: 20px;
 
   &__header {
     padding: $gutter/2 0;
+    font-size: 1.496em;
   }
 
   &__price {
@@ -103,10 +104,6 @@ $gutter: 20px;
       width: 75%;
       padding: 0 $gutter/2;
     }
-
-    &__info {
-      height: 5em;
-    }
   }
 
   .products__col--501 {
@@ -123,6 +120,10 @@ $gutter: 20px;
     &__content {
       width: 100%;
       height: auto;
+    }
+
+    &__info {
+      height: 5em;
     }
   }
 }
