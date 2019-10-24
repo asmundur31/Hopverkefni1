@@ -3,8 +3,8 @@ $gutter: 20px;
 
 .forms {
   display: flex;
-  flex-direction: column;
   max-width: 1200px;
+  flex-direction: column;
 
   &__row {
     display: flex;
