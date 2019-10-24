@@ -99,16 +99,16 @@ $gutter: 20px;
   }
 }
 
-@media (min-width: 1220px) {
+@media (min-width: 1200px) {
   .cards {
     &__col {
-      height: 866px;
+      height: 8652px;
     }
   }
 
   .card {
     &__img {
-      height: 866px;
+      height: 852px;
     }
   }
 }
