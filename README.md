@@ -9,10 +9,15 @@ npm run dev
 Þá eru sóttir allir pakkar sem þarf til að keyra verkefnið og svo er verkefnið keyrt með því að keyra nokkrar skipanir samhliða. Þessar skipanir eru:
 
 * npm run sass-watch
+
 Þessi skipun tekur eftir því þegar einhver **\*.scss** skrá er vistuð.
+
 * npm run sass
+
 Þessi skipun þýðir **styles.scss** skránna yfir í **styles.css** skrá.
+
 * npm run browser-sync
+
 Þessi skipun fylgist með því þegar einhver skrá er vistuð að þá verður "browser"-inn sem við erum að nota "refresh"-aður.
 
 ## Skipulag verkefnis
