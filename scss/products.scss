@@ -1,5 +1,6 @@
 $hvitur: #fffcf2;
 $svartur: #000;
+$blar: #00b7ff;
 $gutter: 20px;
 
 .products {
@@ -69,6 +70,7 @@ $gutter: 20px;
   &__button {
     padding: $gutter/4;
     margin-right: $gutter/2;
+    background-color: rgb(218, 218, 218);
     border: solid 1px $svartur;
     border-radius: 3px;
 
@@ -77,6 +79,11 @@ $gutter: 20px;
       height: 1em;
       padding-right: 1em;
     }
+  }
+
+  &__button:hover {
+    background-color: $blar;
+    border: solid 1px $blar;
   }
 }
 

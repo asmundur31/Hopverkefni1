@@ -10,7 +10,7 @@ npm run dev
 
 * npm run sass-watch
 
-Þessi skipun tekur eftir því þegar einhver **\*.scss** skrá er vistuð.
+Þessi skipun tekur eftir því þegar einhver **.scss** skrá er vistuð.
 
 * npm run sass
 
@@ -19,6 +19,10 @@ npm run dev
 * npm run browser-sync
 
 Þessi skipun fylgist með því þegar einhver skrá er vistuð að þá verður "browser"-inn sem við erum að nota "refresh"-aður.
+
+## Aðrir pakkar sem notaðir voru í verkefni
+Við notuðm stylelint til þess að passa að allur **scss** kóði líti svipað út hjá okkur öllum. Til þess að athuga hvort skránnar okkar séu að fylgja settum reglum, þá er eftirfarandi skipun keyrð:
+* npm run lint-scss
 
 ## Skipulag verkefnis
 ### Uppbygging
@@ -50,16 +54,15 @@ Settum upp sér skrá með öllum leturgerðum sem við þurftum.
 ### index
 Stýlar texta í dálkum. Nýtt aðalega í main á index.html en auk þess í course.html.
 ### grid
-Sýlar grid sem er nýtt í index.html og course.html.
+Stýlar grid sem er nýtt í index.html og course.html.
 ### form
-Hér er útlit á öllum upplýsinga útfyllingum.
+Hér er útlit á öllum upplýsinga formum.
 ### cards
-Öll kortavirkni hjá starfsmönnum.
+Öll virkni og útlit á kortum hjá starfsmönnum á starfsmannasíðunni.
 ### products
-Útlit á vörum.
+Útlit á vörum og main klasinn er hér einnig.
 ### config
 Hér settum við allt sem okkur fannst eiga hvergi heima.
-
 
 ## Upplýsingar um þá sem unnu verkefnið
 * Ásmundur Óskar Ásmundsson (aoa27@hi.is)
