@@ -20,6 +20,7 @@ $gutter: 20px;
 
   &__col {
     width: 100%;
+    padding: $gutter/2 0;
   }
 }
 
@@ -28,6 +29,7 @@ $gutter: 20px;
   padding-bottom: 2*$gutter;
   flex-direction: column;
   flex-wrap: wrap;
+  height: 100%;
 
   &__img {
     width: 100%;
@@ -35,6 +37,8 @@ $gutter: 20px;
   }
 
   &__content {
+    display: flex;
+    flex-direction: column;
     width: 100%;
   }
 
@@ -42,6 +46,10 @@ $gutter: 20px;
     padding: $gutter/2 0;
   }
 
+  &__info {
+    flex: 1;
+  }
+  
   &__price {
     padding: $gutter/2 0;
   }
@@ -115,10 +123,6 @@ $gutter: 20px;
     &__content {
       width: 100%;
       height: auto;
-    }
-
-    &__info {
-      height: 5em;
     }
   }
 }
