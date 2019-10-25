@@ -20,6 +20,10 @@ npm run dev
 
 Þessi skipun fylgist með því þegar einhver skrá er vistuð að þá verður "browser"-inn sem við erum að nota "refresh"-aður.
 
+## Aðrir pakkar sem notaðir voru í verkefni
+Við notuðm stylelint til þess að passa að allur **scss** kóði líti svipað út hjá okkur öllum. Til þess að athuga hvort skránnar okkar séu að fylgja settum reglum, þá er eftirfarandi skipun keyrð:
+* npm run lint-scss
+
 ## Skipulag verkefnis
 ### Uppbygging
 Verkefnið er sett upp á 5 html síðum:
@@ -56,7 +60,7 @@ Hér er útlit á öllum upplýsinga útfyllingum.
 ### cards
 Öll kortavirkni hjá starfsmönnum.
 ### products
-Útlit á vörum.
+Útlit á vörum og main klasinn er hér einnig.
 ### config
 Hér settum við allt sem okkur fannst eiga hvergi heima.
 
