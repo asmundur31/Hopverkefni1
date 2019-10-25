@@ -1,0 +1,20 @@
+@import "scss/config";
+
+.col__body {
+  &__header {
+    margin: $gutter 0;
+    font-weight: bold;
+  }
+
+  &__text {
+    margin: $gutter 0;
+  }
+
+  &__button {
+    margin: $gutter 0;
+  }
+
+  &__image {
+    margin: $gutter 0;
+  }
+}
