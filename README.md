@@ -6,7 +6,7 @@ Hægt er að skoða verkfnið á þessari slóð: [Hópverkefni1](https://notend
 npm install
 npm run dev
 ```
-Þá eru sóttir allir pakkar sem þarf til að keyra verkefnið og svo er verkefnið keyrt með því að keyra nokkrar skipanir samhliða. Þessar skipanir eru:
+Þá eru sóttir allir pakkar sem þarf til að keyra verkefnið. Hér keyrir "dev" skipunin nokkrar skipanir samhliða. Þessar skipanir eru:
 
 * npm run sass-watch
 
@@ -18,10 +18,10 @@ npm run dev
 
 * npm run browser-sync
 
-Þessi skipun fylgist með því þegar einhver skrá er vistuð að þá verður "browser"-inn sem við erum að nota "refresh"-aður.
+Þessi skipun fylgist með því þegar einhver skrá er vistuð að þá verður "browser"-inn sem við erum að nota "refresh"-aður, o.fl.
 
 ## Aðrir pakkar sem notaðir voru í verkefni
-Við notuðm stylelint til þess að passa að allur **scss** kóði líti svipað út hjá okkur öllum. Til þess að athuga hvort skránnar okkar séu að fylgja settum reglum, þá er eftirfarandi skipun keyrð:
+Við notuðm stylelint til þess að passa að allur **scss** kóði liti svipað út hjá okkur öllum. Til þess að athuga hvort skránnar okkar séu að fylgja settum reglum, þá er eftirfarandi skipun keyrð:
 * npm run lint-scss
 
 ## Skipulag verkefnis
@@ -44,6 +44,7 @@ Allt útlit á verkefninu er í **styles.css** sem var þýtt úr **styles.scss*
 * cards.scss
 * products.scss
 * config.scss
+* column.scss
 
 ### header
 Inniheldur útlit á haus allra síðna í verkefninu.
