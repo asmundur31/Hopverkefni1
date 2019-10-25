@@ -60,9 +60,9 @@ Hér er útlit á öllum upplýsinga formum.
 ### cards
 Öll virkni og útlit á kortum hjá starfsmönnum á starfsmannasíðunni.
 ### products
-Útlit á vörum og main klasinn er hér einnig.
+Útlit á vörum.
 ### config
-Hér settum við allt sem okkur fannst eiga hvergi heima.
+Útlitsstillingar sem eru notaðar á nokkrum pages.
 
 ## Upplýsingar um þá sem unnu verkefnið
 * Ásmundur Óskar Ásmundsson (aoa27@hi.is)
