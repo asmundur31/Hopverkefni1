@@ -56,14 +56,13 @@ Stýlar texta í dálkum. Nýtt aðalega í main á index.html en auk þess í c
 ### grid
 Stýlar grid sem er nýtt í index.html og course.html.
 ### form
-Hér er útlit á öllum upplýsinga útfyllingum.
+Hér er útlit á öllum upplýsinga formum.
 ### cards
-Öll kortavirkni hjá starfsmönnum.
+Öll virkni og útlit á kortum hjá starfsmönnum á starfsmannasíðunni.
 ### products
 Útlit á vörum og main klasinn er hér einnig.
 ### config
 Hér settum við allt sem okkur fannst eiga hvergi heima.
-
 
 ## Upplýsingar um þá sem unnu verkefnið
 * Ásmundur Óskar Ásmundsson (aoa27@hi.is)
