@@ -1,6 +1,6 @@
 # Lýsing á verkefni
 ## Uppsetning á verkefni
-Til að keyra verkefnið þá þarf að sækja þetta repository og framkvæma eftirfarandi skipanir í terminal eða í command line í möppu verkefnisins:
+Hægt er að skoða verkfnið á þessari slóð: [Hópverkefni1](https://notendur.hi.is/aoa27/vefforritun/hopverkefni1/). Annars er hægt að keyra verkefnið með því að sækja þetta ["repository"](https://github.com/asmundur31/Hopverkefni1) og framkvæma eftirfarandi skipanir í "terminal" eða í "command line" í möppu verkefnisins:
 
 ```sh
 npm install
