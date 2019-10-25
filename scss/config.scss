@@ -4,6 +4,17 @@ $appelsinugulur: #ff5000;
 $blar: #00b7ff;
 $gutter: 20px;
 
+.main {
+  display: flex;
+  width: 100vw;
+  max-width: 1200px;
+  padding: 0 $gutter;
+  margin: 0 auto;
+  font-family: Oswald, verdana, serif;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 .button {
   width: 250px;
   padding: 1em 0;
