@@ -1,7 +1,4 @@
-$hvitur: #fffcf2;
-$svartur: #000;
-$blar: #00b7ff;
-$gutter: 20px;
+@import "scss/config";
 
 .grid {
   &__row {
@@ -73,5 +70,11 @@ $gutter: 20px;
     &__footer {
       padding-top: 0;
     }
+  }
+}
+
+@media (min-width: $breakpoint) {
+  .footer {
+    padding: 0;
   }
 }

@@ -12,7 +12,7 @@
 }
 
 html { /* stylelint-disable-line */
-  max-width: 1200px;
+  //max-width: 1200px;
   box-sizing: border-box;
   margin: 0 auto;
   overflow-x: hidden;
@@ -30,3 +30,4 @@ html { /* stylelint-disable-line */
 @import "scss/grid";
 @import "scss/index";
 @import "scss/cards";
+@import "scss/column";

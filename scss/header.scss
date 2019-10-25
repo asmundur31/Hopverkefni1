@@ -1,17 +1,14 @@
-$appelsinugulur: #ff5000;
-$hvitur: #fffcf2;
-$svartur: #000;
-$gutter: 20px;
+@import "scss/config";
 
 .header {
   display: flex;
   width: 100vw;
   max-width: 1200px;
-  padding: 10px;
+  padding: $gutter/2;
+  margin: 0 auto;
   font-family: Oswald, verdana, serif;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: $appelsinugulur;
 
   &__header {
     align-self: center;
@@ -111,6 +108,16 @@ $gutter: 20px;
     &__cart {
       align-self: flex-end;
       margin-top: -2*$gutter;
+    }
+  }
+}
+
+@media (min-width: $breakpoint) {
+  .header {
+    padding: $gutter/2 0;
+
+    &__cart {
+      padding-right: 0;
     }
   }
 }
