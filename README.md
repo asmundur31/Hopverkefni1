@@ -52,7 +52,7 @@ Inniheldur útlit á fæti allra síðna í verkefninu.
 ### fonts
 Settum upp sér skrá með öllum leturgerðum sem við þurftum.
 ### index
-Stýlar texta í dálkum. Nýtt aðalega í main á index.html en auk þess í course.html.
+Inniheldur útlit á ýmsum klösum sem notaðir eru í flestum pages.
 ### grid
 Stýlar grid sem er nýtt í index.html og course.html.
 ### form
@@ -62,7 +62,9 @@ Hér er útlit á öllum upplýsinga formum.
 ### products
 Útlit á vörum.
 ### config
-Útlitsstillingar sem eru notaðar á nokkrum pages.
+Skilgreiningar á breytum sem notaðar eru í öðrum scss skrám. 
+### column
+Inniheldur útlit á hlutum innan dálka sem eru myndaðir með grid.scss.
 
 ## Upplýsingar um þá sem unnu verkefnið
 * Ásmundur Óskar Ásmundsson (aoa27@hi.is)
